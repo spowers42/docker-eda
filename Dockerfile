@@ -19,6 +19,8 @@ RUN cd /tmp && \
 RUN pip install -U pip
 RUN pip install -U distribute
 RUN pip install freetype-py
+RUN pip install jinja2
+RUN pip install pyzmq
 RUN pip install ipython
 
 #Data analysis packages
