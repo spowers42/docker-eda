@@ -24,12 +24,14 @@ RUN pip install pyzmq
 RUN pip install ipython
 
 #Data analysis packages
+RUN pip install scipy
 RUN pip install numpy
 RUN pip install pandas
 RUN pip install pandasql
 RUN pip install networkx
 RUN pip install biopython
 RUN pip install scikit-learn
+RUN pip install pyDatalog
 
 #plotting
 RUN pip install seaborn
